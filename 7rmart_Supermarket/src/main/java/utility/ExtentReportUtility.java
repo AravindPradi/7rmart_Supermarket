@@ -13,7 +13,7 @@ public class ExtentReportUtility {
 		reporter.config().setReportName("SevenRmart Project");
 		extentReports.attachReporter(reporter);
 		extentReports.setSystemInfo("Organization", "Obsqura");
-		extentReports.setSystemInfo("Name", "Jinu Varghese");
+		extentReports.setSystemInfo("Name", "Aravind Pradeep");
 		return extentReports;
 	}
 }
