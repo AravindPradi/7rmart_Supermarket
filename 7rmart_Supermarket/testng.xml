@@ -8,9 +8,69 @@
 	<test thread-count="5" name="Test">
 		<classes>
 
-			<class name="testscript.AdminUsersTest">
+			<class name="testscript.AdminUsersSearchTest">
 				<methods>
-					<include name="verifyWhethertheUsercanAddaNewUsernameandPasswordtotheAdminUsersList"></include>
+					<include
+						name="verifyWhetherUsercanSearchAdminUsersandGetMatchingResults"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.CategorySearchTest">
+				<methods>
+					<include
+						name="veryfyUsercanSearchACategoryinListCategoryPage"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.CategoryTest">
+				<methods>
+					<include
+						name="veryfyUsercanViewStatusandAddnNewCategorytoListCategoryPage"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.LoginTest">
+				<methods>
+					<include name="verifyUserLoginWithValidUserNameAndPassword"></include>
+					<include
+						name="verifyUserLoginWithValidUserNameAndInvalidPassword"></include>
+					<include
+						name="verifyUserLoginWithInvalidUserNameAndValidPassword"></include>
+					<include
+						name="verifyUserLoginWithInvalidUserNameAndPassword"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.ManageContactTest">
+				<methods>
+					<include
+						name="verifyWhetherUsercanAddAddressEmailandPhoneNumbertoContactUsInformations"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.ManageFooterTextTest">
+				<methods>
+					<include
+						name="verifyUsercanUpdateFooterTextInformationbyEnteringAddressEmailandPhoneNumber"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.ManageNewsTest">
+				<methods>
+					<include name="verifyUsercanEnterNewNewsInformations"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.ManageProductTest">
+				<methods>
+					<include name="verifyTheTableinManageProductPage"></include>
+				</methods>
+			</class>
+
+			<class name="testscript.SubCategoryTest">
+				<methods>
+					<include
+						name="verifyWhethertheUsercanAddaNewUsernameandPasswordtotheAdminUsersList"></include>
 				</methods>
 			</class>
 
